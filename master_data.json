@@ -1,0 +1,95 @@
+{
+  "freeze" : false,
+  "quizNo" : 0,
+  "quiz": {
+      "1": {
+        "title": "Warm-up",
+        "subtitle": "Question 01",
+        "question": "Who was the CEO of Google in July 2015?",
+        "gist": "",
+        "answer": {
+          "answer1": "Sundar Pichai",
+          "answer2": "Larry Page",
+          "answer3": "Eric Schmidt",
+          "answer4": "Sergey Brin"
+        },
+        "correctAnswer": "answer2"
+      },
+      "2": {
+        "title": "Script elements",
+        "subtitle": "Question 02",
+        "question": "Which of the following script elements blocks the parser while the script downloads?",
+        "gist": "",
+        "answer": {
+          "answer1": "<script src='foo.js'></script>",
+          "answer2": "<script src='foo.js' defer></script>",
+          "answer3": "<script src='foo.js' async></script>",
+          "answer4": "<script src='foo.js' async='false'></script>"
+        },
+        "correctAnswer": "answer1"
+      },
+      "3": {
+        "title": "ServiceWorker in AMP",
+        "subtitle": "Question 03",
+        "question": "You are loading ServiceWorker using <amp-install-serviceworker>. If the AMP page was served from cache, when will ServiceWorker be installed?",
+        "gist": "",
+        "answer": {
+          "answer1": "As soon as the component loads",
+          "answer2": "5s after the compoennt loads",
+          "answer3": "10s after the component loads",
+          "answer4": "20s after the component loads"
+        },
+        "correctAnswer": "answer3"
+      },
+      "4": {
+        "title": "Loading fonts",
+        "subtitle": "Question 04",
+        "question": "Is this enough to avoid blocking your first meaningful paint on not-cached web fonts?",
+        "gist": "5d43fb97fb63eb30ba86f15184ee3dba",
+        "answer": {
+          "answer1": "Yes",
+          "answer2": "No"
+        },
+        "correctAnswer": "answer2"
+      },
+      "5": {
+        "title": "ES6 modules",
+        "subtitle": "Question 05",
+        "question": "Which performs best when using ES6 scripts in a cross browser environment?",
+        "gist": "5e95a9d30ceb7240348b0582d1341107",
+        "answer": {
+          "answer1": "load ES6 module",
+          "answer2": "need to load transpiled js",
+          "answer3": "ES6 module + transpiled js w/ nomodule",
+          "answer4": "ES6 module + transpiled js w/ noscript"
+        },
+        "correctAnswer": "answer3"
+      },
+      "6": {
+        "title": "Streams",
+        "subtitle": "Question 06",
+        "question": "Which of the following allow reading partial result of the HTTP response?",
+        "gist": "",
+        "answer": {
+          "answer1": "xhr.responseType = 'text'",
+          "answer2": "xhr.responseType = 'blob'",
+          "answer3": "xhr.responseType = 'arraybuffer'",
+          "answer4": "fetch(url).then(r => r.text())"
+        },
+        "correctAnswer": "answer1"
+      },
+      "7": {
+        "title": "Web Payments",
+        "subtitle": "Question 06",
+        "question": "Which browser does NOT support the Payment Request API?",
+        "gist": "",
+        "answer": {
+          "answer1": "Safari",
+          "answer2": "Edge",
+          "answer3": "Chrome",
+          "answer4": "Samsung Internet Browser"
+        },
+        "correctAnswer": "answer1"
+      }
+  }
+}
