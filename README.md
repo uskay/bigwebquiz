@@ -1,21 +1,10 @@
-# thebigwebquiz
+# THE BIG WEB QUIZ
 
-> A Vue.js project
+This is a quiz Web app developed for community fun event. The concept and the design is forked/inspired from ["How well do you know the Web?"](https://www.youtube.com/watch?v=vAgKZoGIvqs) session in Google I/O 2017 (No src used or referenced from the original app). Full respect to the Web DevRel team! Love you guys.
 
-## Build Setup
+![bwq.png](https://uskay.github.io/images/bwq.png)
 
-``` bash
-# install dependencies
-npm install
+## Architecture
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+This is a simple Vue.js app using Firebase as a backend.
+![bwq_arch.png](https://uskay.github.io/images/bwq_arch.png)
